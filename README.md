@@ -98,7 +98,7 @@ Learn form RUNOOB [菜鸟教程](https://www.runoob.com/typescript/ts-tutorial.h
 | 运算符   | 说明 | 
 | :----- | :--: |
 | && |  and  |
-| `||` |  or  |
+| &#124;&#124; |  or  |
 | ! |  not  |
 
 ### 关系运算符
