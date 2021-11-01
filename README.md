@@ -45,7 +45,7 @@ Learn form RUNOOB [菜鸟教程](https://www.runoob.com/typescript/ts-tutorial.h
   TypeScript 遵循强类型，如果将不同的类型赋值给变量会编译错误，如下实例：
   > var num:number = "hello"     // 这个代码会编译错误
 
-  #### 类型断言
+  ### 类型断言
   类型断言可以用来手动指定一个值的类型，即允许变量从一种类型更改为另一种类型。
   > 语法格式 ： <类型>值  或   值 as 类型
   ```javascript
@@ -54,7 +54,7 @@ Learn form RUNOOB [菜鸟教程](https://www.runoob.com/typescript/ts-tutorial.h
   console.log(str2)
   ```
 
-  #### 类型推断
+  ### 类型推断
   当类型没有给出时，TypeScript 编译器利用类型推断来推断类型。
   ```javascript
   // 运行如下代码，编译报错，因为类型已锁定为number。
@@ -65,9 +65,26 @@ Learn form RUNOOB [菜鸟教程](https://www.runoob.com/typescript/ts-tutorial.h
   console.log(num); //报错了 error TS2322: Type '"12"' is not assignable to type 'number'.
   ```
 
-  #### 变量作用域
+  ### 变量作用域
   变量作用域指定了变量定义的位置。程序中变量的可用性由变量作用域决定。
-  
+
   - **全局作用域** − 全局变量定义在程序结构的外部，它可以在你代码的任何位置使用。
   - **类作用域** − 这个变量也可以称为 字段。类变量声明在一个类里头，但在类的方法外面。 该变量可以通过类的对象来访问。类变量也可以是静态的，静态的变量可以通过类名直接访问。
   - **局部作用域** − 局部变量，局部变量只能在声明它的一个代码块（如：方法）中使用。
+
+
+## TypeScript 运算符
+  - 算术运算符 
+  - 逻辑运算符
+  - 关系运算符
+  - 按位运算符
+  - 赋值运算符
+  - 三元/条件运算符
+  - 字符串运算符
+  - 类型运算符
+
+### 算术运算符
+> + 加， - 减， * 乘， / 除， % 取模（余数）， ++ 自增， -- 自减
+
+### 逻辑运算符
+> && and， || or， ! not
