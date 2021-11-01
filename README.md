@@ -84,7 +84,8 @@ Learn form RUNOOB [菜鸟教程](https://www.runoob.com/typescript/ts-tutorial.h
   - 类型运算符
 
 ### 算术运算符
-> + 加， - 减， * 乘， / 除， % 取模（余数）， ++ 自增， -- 自减
+  | 运算符 | 描述 |
+  | + | 加法 |
 
 ### 逻辑运算符
 > && and， || or， ! not
