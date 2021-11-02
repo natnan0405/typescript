@@ -134,16 +134,16 @@ Learn form RUNOOB [菜鸟教程](https://www.runoob.com/typescript/ts-tutorial.h
 ## TypeScript 循环
 
   ### for 循环
-    TypeScript for 循环用于多次执行一个语句序列，简化管理循环变量的代码。
-    >for ( init; condition; increment ){
-    >    statement(s);
-    >}
+  TypeScript for 循环用于多次执行一个语句序列，简化管理循环变量的代码。
+  >for ( init; condition; increment ){
+  >    statement(s);
+  >}
 
-    下面是 for 循环的控制流程解析：
+  下面是 for 循环的控制流程解析：
 
-      - init 会首先被执行，且只会执行一次。这一步允许您声明并初始化任何循环控制变量。您也可以不在这里写任何语句，只要有一个分号出现即可。
-      - 接下来，会判断 condition。如果为 true，则执行循环主体。如果为 false，则不执行循环主体，且控制流会跳转到紧接着 for 循环的下一条语句。
-      - 在执行完 for 循环主体后，控制流会跳回上面的 increment 语句。该语句允许您更新循环控制变量。该语句可以留空，只要在条件后有一个分号出现即可。
-      - 条件再次被判断。如果为 true，则执行循环，这个过程会不断重复（循环主体，然后增加步值，再然后重新判断条件）。在条件变为 false 时，for 循环终止。
-  
-    ![流程图](https://www.runoob.com/wp-content/uploads/2014/09/cpp_for_loop.png)
+    - init 会首先被执行，且只会执行一次。这一步允许您声明并初始化任何循环控制变量。您也可以不在这里写任何语句，只要有一个分号出现即可。
+    - 接下来，会判断 condition。如果为 true，则执行循环主体。如果为 false，则不执行循环主体，且控制流会跳转到紧接着 for 循环的下一条语句。
+    - 在执行完 for 循环主体后，控制流会跳回上面的 increment 语句。该语句允许您更新循环控制变量。该语句可以留空，只要在条件后有一个分号出现即可。
+    - 条件再次被判断。如果为 true，则执行循环，这个过程会不断重复（循环主体，然后增加步值，再然后重新判断条件）。在条件变为 false 时，for 循环终止。
+
+  ![流程图](https://www.runoob.com/wp-content/uploads/2014/09/cpp_for_loop.png)
